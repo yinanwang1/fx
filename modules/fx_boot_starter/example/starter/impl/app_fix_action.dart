@@ -3,17 +3,7 @@ import 'package:flutter/material.dart';
 
 
 
-class AppFixActionImpl implements AppFixAction {
+class AppFixActionImpl {
 
   const AppFixActionImpl();
-
-  @override
-  void onFixSuccess(BuildContext context) {
-    // TODO go fix success
-  }
-
-  @override
-  void onFixError(BuildContext context, Object error, StackTrace trace) {
-
-  }
 }
